@@ -2,60 +2,44 @@
 
 📌 **Project Overview**
 
-This repository contains testing reports for multiple modules of the AI Interview & Assessment System.
-
-The system is designed to build a fully automated, scalable AI-driven evaluation platform capable of:
-
+ This repository contains comprehensive testing reports for multiple modules of the AI Interview & Assessment System. The system is an automated, scalable, AI-driven evaluation platform designed for:
 - Conducting AI-based interviews
-- Performing structured assessments
-- Monitoring candidate behavior
-- Evaluating answers using LLMs
-- Applying scoring logic
-- Generating analytics and reports
+- Monitoring candidate behavior via multimodal intelligence
+- Evaluating technical depth using LLMs and NLP scoring
+- System Monitoring for stability and resource tracking
+
 
 ## 🏗️ System Architecture
 
 - **User Layer** (Frontend — React)
 - **API Layer** (FastAPI Backend)
-- **AI Layer** (Evaluation Engine)
-- **Processing Layer** (Scoring Logic)
-- **Monitoring Layer** (YOLOv8, OpenCV)
+- **AI Layer** (Evaluation Engine (MediaPipe, DeepFace))
+- **Monitoring Layer** (Real-time CPU/Memory tracking and Proctoring (OpenCV))
 - **Data Layer** (PostgreSQL)
-- **Reporting Layer**
 
 ## 🧪 Testing Work Done
 
 **Modules Covered:**
-- Module 46 — Face Tracker (Interview Proctoring)
-- Module 47 — Context Memory Engine
-- Module 48 — Session Management System
-- Module 49 — Randomization Engine
-- Module 50 — Decision Flow Controller
+- Module 41 — Proctoring System Backend Integration
+- Module 42 — Database Integration
+- Module 43 — System Monitoring, Logging, Deployment Framework
+- Module 44 — Adaptive Interview Engine
+- Module 45 — Multimodal Behavioral Intelligence Engine for AI Interviews
 
 **🔍 Testing Types:**
 - Deep Testing
 - Failure Testing
-- Logical Validation
+- Redteam Testing
 
-## ⚙️ Current Phase
-
-System Validation + Stress Testing + Documentation + Logical Verification
 
 ## 👨‍💻 Team
 
-**Team 1 — Deep Testing & Failure Simulation**
+**Team 1 — Deep Testing ,Failure Simulation & System Breaking Team**
 
-**Members:**
-- Gaurav Raj
-- Omshri Patel
-- Durvesh Motilal Raysing
-- Aman Chauhan
-- Chitranjan
-- Prajwal Kamthe
 
 ## 👤 Author
 
-Prajwal Kamthe
+Aniruddha Kamble
 
 ## 📁 Repository Purpose
 
